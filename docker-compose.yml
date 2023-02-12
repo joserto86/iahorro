@@ -34,10 +34,10 @@ services:
     image: mysql:8.0
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_ROOT_PASSWORD: farsa
-      MYSQL_DATABASE: symfony
+      MYSQL_ROOT_PASSWORD: toor
+      MYSQL_DATABASE: iahorro
       MYSQL_USER: admin
-      MYSQL_PASSWORD: farsa
+      MYSQL_PASSWORD: iahorro
     ports:
       - '4306:3306'
     volumes:
